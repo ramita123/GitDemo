@@ -16,6 +16,8 @@ public class actionClassMouse {
 		Actions a=new Actions(driver);//so that driver can access the methods of actions class
 		//a.moveToElement(driver.findElement(By.xpath("//a[@id='nav-link-accountList']"))).build().perform();
 		a.moveToElement(driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"))).click().keyDown(Keys.SHIFT).sendKeys("hello").build().perform();
+		System.out.println("testingdatagithub");
+		System.out.println("secondgutdemo");
 		
 	}
 
