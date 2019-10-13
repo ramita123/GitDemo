@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-05T16:28:10 IST" name="Suite" finished-at="2019-10-05T16:28:33 IST" duration-ms="22802">
+    <groups>
+    </groups>
+    <test started-at="2019-10-05T16:28:10 IST" name="Test" finished-at="2019-10-05T16:28:33 IST" duration-ms="22802">
+      <class name="testobject.allTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testobject.allTest@157853da]" started-at="2019-10-05T16:28:10 IST" name="launchBrowser" finished-at="2019-10-05T16:28:28 IST" duration-ms="18270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="logintest()[pri:0, instance:testobject.allTest@157853da]" started-at="2019-10-05T16:28:28 IST" name="logintest" finished-at="2019-10-05T16:28:33 IST" duration-ms="4441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- testobject.allTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

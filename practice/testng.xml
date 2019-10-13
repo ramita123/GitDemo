@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="loan dapartment">
+  <test  name="car loan">
+  <parameter name="url" value="QAclickacademy.com" />
+    <parameter name="username" value="ramitasambyal" />
+    <classes>
+      <class name="testngDemo.day2">
+      <methods>
+      <include name = "mobile.*"/>
+      </methods>
+      </class>
+      
+    </classes>
+  </test> 
+  
+  <test name ="personal loan">
+  <classes>
+  <class name ="testngDemo.day1" /> 
+  </classes>
+  </test>
+  
+</suite> 
+   

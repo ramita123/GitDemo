@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [loan dapartment]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="car loan(failed)">
+    <parameter name="url" value="QAclickacademy.com"/>
+    <parameter name="username" value="ramitasambyal"/>
+    <classes>
+      <class name="testngDemo.day2">
+        <methods>
+          <include name="mobilesinup"/>
+        </methods>
+      </class> <!-- testngDemo.day2 -->
+    </classes>
+  </test> <!-- car loan(failed) -->
+</suite> <!-- Failed suite [loan dapartment] -->
