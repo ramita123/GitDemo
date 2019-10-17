@@ -7,6 +7,8 @@ public class day1 {
 	public void demo()
 	{
 		System.out.println("hello");
+		
+		System.out.println("done");
 	}
 	
 
